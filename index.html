@@ -4,11 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali Raza - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #333;
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+            font-size: 32px;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #555;
+        }
+
+        .resume-container {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .left-column {
+            width: 35%;
+            padding-right: 20px;
+            border-right: 1px solid #ccc;
+        }
+
+        .right-column {
+            width: 65%;
+            padding-left: 20px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .skills-list span,
+        .hobbies-list span {
+            display: inline-block;
+            background: #e0e0e0;
+            margin: 4px 6px 4px 0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .job, .school {
+            margin-bottom: 15px;
+        }
+
+        .job h4, .school h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #222;
+        }
+
+        .school h5 {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <div class="resume">
         <header>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
             <h1>ALI RAZA</h1>
             <h2>IT PROFESSIONAL</h2>
         </header>
